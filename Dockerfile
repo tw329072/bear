@@ -2,7 +2,7 @@ FROM centos:7
 
 ENV LANG='en_US.UTF-8' LANGUAGE='en_US:en' LC_ALL='en_US.UTF-8'
 
-RUN yum install -y curl ca-certificates fontconfig locales
+RUN yum install -y curl ca-certificates fontconfig
 
 ENV JAVA_VERSION jdk-11.0.4+11_openj9-0.15.1
 
